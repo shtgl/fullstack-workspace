@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js">
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  	<script defer src="js/regr.js"></script>
+		<title>Register</title>
+		<style>
+
+			/*--------------------------------------------------------------
+			# General
+			--------------------------------------------------------------*/
+			body {
+			  font-family: Arial;
+			  color: #444444;
+			}
+
+			a {
+			  color: #47b2e4;
+			  text-decoration: none;
+			}
+
+			a:hover {
+			  color: #73c5eb;
+			  text-decoration: none;
+			}
+
+			h1,
+			h2,
+			h3,
+			h4,
+			h5,
+			h6 {
+			  font-family: Arial;
+			}
+
+			#header {
+			  transition: all 0.5s;
+			  z-index: 997;
+			  padding: 15px 0;
+			  padding: 10px 16px;
+			  background: #555;
+			  color: #f1f1f1;
+			  opacity: 1;
+			  box-shadow: 2px 2px 5px #888888;
+			}
+
+			#header .logo {
+			  font-size: 30px;
+			  margin: 0;
+			  padding: 0;
+			  line-height: 1;
+			  font-weight: 500;
+			  letter-spacing: 2px;
+			  text-transform: uppercase;
+			}
+
+			#header .logo a {
+			  color: #fff;
+			}
+
+			#header .logo img {
+			  max-height: 40px;
+			}
+
+			/*--------------------------------------------------------------
+			# Navigation Menu
+			--------------------------------------------------------------*/
+			/**
+			* Desktop Navigation */
+			
+			.navbar {
+			  padding: 0;
+			}
+
+			.navbar ul {
+			  margin: 0;
+			  padding: 0;
+			  display: flex;
+			  list-style: none;
+			  align-items: center;
+			}
+
+			.navbar li {
+			  margin: 10px;
+			}
+
+			.navbar a,
+			.navbar a:focus {
+			  padding: 8px 20px;
+			  margin-left: 30px;
+			  border-radius: 5px;
+			  color: #fff;
+			  font-size: 14px;
+			  border: 2px solid blanchedalmond;
+			  font-weight: 600;
+			  transition: 0.3s;
+			}
+
+			.navbar a i,
+			.navbar a:focus i {
+			  font-size: 12px;
+			  line-height: 0;
+			  margin-left: 5px;
+			}
+
+			.navbar a:hover,
+			.navbar .active,
+			.navbar .active:focus,
+			.navbar li:hover>a {
+			  background-color: rgba(255, 255, 255, 1.0);
+				color: black;
+				border-radius: 10px;
+				box-shadow: 2px 2px 5px #888888;
+				transform: scale(1.2, 1.2);
+			}
+
+			.navbar .getstarted,
+			.navbar .getstarted:focus {
+			  padding: 8px 20px;
+			  margin-left: 30px;
+			  border-radius: 5px;
+			  color: #fff;
+			  font-size: 14px;
+			  border: 2px solid blanchedalmond;
+			  font-weight: 600;
+			  transform: scale(1.2, 1.2);
+			}
+
+			.navbar .getstarted:hover,
+			.navbar .getstarted:focus:hover {
+			  background-color: blanchedalmond;
+				color: black;
+				border-radius: 10px;
+				box-shadow: 2px 2px 5px #888888;
+				transform: scale(1.2, 1.2);
+			}
+
+			@media (max-width: 1366px) {
+			  .navbar .dropdown .dropdown ul {
+			    left: -90%;
+			  }
+
+			  .navbar .dropdown .dropdown:hover>ul {
+			    left: -100%;
+			  }
+			} 
+
+			/*--------------------------------------------------------------
+			# front Section
+			--------------------------------------------------------------*/
+
+			#front {
+			  width: 100%;
+			  height: 80vh;
+			  background-image: url("img/schoolreg.png");
+			  background-repeat: no-repeat;
+			  background-size: cover;
+
+			}
+
+			#front .container {
+			  padding-top: 72px;
+			}
+
+			#front h1 {
+			  margin: 0 0 10px 0;
+			  font-size: 48px;
+			  font-weight: 700;
+			  line-height: 56px;
+			  color: #fff;
+			}
+
+			#front h2 {
+			  color: rgba(0, 0, 0, 0.6);
+			  margin-bottom: 50px;
+			  font-size: 24px;
+			}
+
+			#front .btn-get-started {
+			  font-family: Arial;
+			  font-weight: 500;
+			  font-size: 16px;
+			  letter-spacing: 1px;
+			  display: inline-block;
+			  padding: 10px 28px 11px 28px;
+			  border-radius: 20px;
+			  transition: 0.5s;
+			  margin: 10px 0 0 0;
+			  color: #fff;
+			  background: #47b2e4;
+
+			}
+
+			#front .btn-get-started:hover {
+				transform: scale(1.2, 1.2);
+			  background-image: linear-gradient(to bottom right, red, yellow);
+			}
+
+			/*--------------------------------------------------------------
+			# Sections General
+			--------------------------------------------------------------*/
+			section {
+			  padding: 60px 0;
+			  overflow: hidden;
+			}
+
+			.section-bg {
+			  background-color: #f3f5fa;
+			}
+
+			.section-title {
+			  text-align: center;
+			  padding-bottom: 30px;
+			}
+
+			.section-title h2 {
+			  font-size: 32px;
+			  font-weight: bold;
+			  text-transform: uppercase;
+			  margin-bottom: 20px;
+			  padding-bottom: 20px;
+			  position: relative;
+			  color: #37517e;
+			}
+
+			.section-title h2::before {
+			  content: "";
+			  position: absolute;
+			  display: block;
+			  width: 120px;
+			  height: 1px;
+			  background: #ddd;
+			  bottom: 1px;
+			  left: calc(50% - 60px);
+			}
+
+			.section-title h2::after {
+			  content: "";
+			  position: absolute;
+			  display: block;
+			  width: 40px;
+			  height: 3px;
+			  background: #47b2e4;
+			  bottom: 0;
+			  left: calc(50% - 20px);
+			}
+
+			.section-title p {
+			  margin-bottom: 0;
+			}
+
+
+			/*--------------------------------------------------------------
+			# Contact
+			--------------------------------------------------------------*/
+			.contact .info {
+			  border-top: 3px solid black;
+			  border-bottom: 3px solid black;
+			  padding: 30px;
+			  background: #fff;
+			  width: 100%;
+			  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+			}
+
+			.contact .info i {
+			  font-size: 20px;
+			  color: #47b2e4;
+			  float: left;
+			  width: 44px;
+			  height: 44px;
+			  background: #e7f5fb;
+			  display: flex;
+			  justify-content: center;
+			  align-items: center;
+			  border-radius: 50px;
+			  transition: all 0.3s ease-in-out;
+			}
+
+			.contact .info h4 {
+			  padding: 0 0 0 60px;
+			  font-size: 22px;
+			  font-weight: 600;
+			  margin-bottom: 5px;
+			  color: #37517e;
+			}
+
+			.contact .info p {
+			  padding: 0 0 10px 60px;
+			  margin-bottom: 20px;
+			  font-size: 14px;
+			  color: #6182ba;
+			}
+
+			.contact .info .email p {
+			  padding-top: 5px;
+			}
+
+			.contact .info .social-links {
+			  padding-left: 60px;
+			}
+
+			.contact .info .social-links a {
+			  font-size: 18px;
+			  display: inline-block;
+			  background: #333;
+			  color: #fff;
+			  line-height: 1;
+			  padding: 8px 0;
+			  border-radius: 50%;
+			  text-align: center;
+			  width: 36px;
+			  height: 36px;
+			  transition: 0.3s;
+			  margin-right: 10px;
+			}
+
+			.contact .info .social-links a:hover {
+			  background: #47b2e4;
+			  color: #fff;
+			}
+
+			.contact .info .email:hover i,
+			.contact .info .address:hover i,
+			.contact .info .phone:hover i {
+			  background: #47b2e4;
+			  color: #fff;
+			}
+
+			.contact .php-email-form {
+			  width: 100%;
+			  border-top: 3px solid #47b2e4;
+			  border-bottom: 3px solid #47b2e4;
+			  padding: 30px;
+			  background: #fff;
+			  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+			}
+
+			.contact .php-email-form .form-group {
+			  padding-bottom: 8px;
+			}
+
+			.contact .php-email-form .validate {
+			  display: none;
+			  color: red;
+			  margin: 0 0 15px 0;
+			  font-weight: 400;
+			  font-size: 13px;
+			}
+
+			.contact .php-email-form .error-message {
+			  display: none;
+			  color: #fff;
+			  background: #ed3c0d;
+			  text-align: left;
+			  padding: 15px;
+			  font-weight: 600;
+			}
+
+			.contact .php-email-form .error-message br+br {
+			  margin-top: 25px;
+			}
+
+			.contact .php-email-form .sent-message {
+			  display: none;
+			  color: #fff;
+			  background: #18d26e;
+			  text-align: center;
+			  padding: 15px;
+			  font-weight: 600;
+			}
+
+			.contact .php-email-form .loading {
+			  display: none;
+			  background: #fff;
+			  text-align: center;
+			  padding: 15px;
+			}
+
+			.contact .php-email-form .loading:before {
+			  content: "";
+			  display: inline-block;
+			  border-radius: 50%;
+			  width: 24px;
+			  height: 24px;
+			  margin: 0 10px -6px 0;
+			  border: 3px solid #18d26e;
+			  border-top-color: #eee;
+			  animation: animate-loading 1s linear infinite;
+			}
+
+			.contact .php-email-form .form-group {
+			  margin-bottom: 20px;
+			}
+
+			.contact .php-email-form label {
+			  padding-bottom: 8px;
+			}
+
+			.contact .php-email-form input,
+			.contact .php-email-form textarea {
+			  border-radius: 0;
+			  box-shadow: none;
+			  font-size: 14px;
+			  border-radius: 4px;
+			}
+
+			.contact .php-email-form input:focus,
+			.contact .php-email-form textarea:focus {
+			  border-color: #47b2e4;
+			}
+
+			.contact .php-email-form input {
+			  height: 44px;
+			}
+
+			.contact .php-email-form textarea {
+			  padding: 10px 12px;
+			}
+
+			.contact .php-email-form button[type=submit] {
+			  background: #47b2e4;
+			  border: 0;
+			  padding: 12px 34px;
+			  color: #fff;
+			  transition: 0.4s;
+			  border-radius: 50px;
+			}
+
+			.contact .php-email-form button[type=submit]:hover {
+			  background: #209dd8;
+			}
+
+			@keyframes animate-loading {
+			  0% {
+			    transform: rotate(0deg);
+			  }
+
+			  100% {
+			    transform: rotate(360deg);
+			  }
+			}
+
+		</style>
+	</head>
+	<body>
+		
+		<!-- ======= Header ======= -->
+	  <header id="header" class="fixed-top ">
+	    <div class="container d-flex align-items-center">
+
+	      <h1 class="logo me-auto"><a href="about.html">Shashwat</a></h1>
+
+	      <nav id="navbar" class="navbar">
+	        <ul class="nav nav-pills nav-justified">
+				    <li class="nav-item">
+				      <a class="nav-link" href="signup.html">Sign Up</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link" href="login.html">Login</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link" href="about.html">Get Started</a>
+				    </li>
+				 </ul>
+	        <i class="bi bi-list mobile-nav-toggle"></i>
+	      </nav>
+	    </div>
+	  </header>
+
+		<section id="front" class="d-flex align-items-center">
+
+		    <div class="container">
+		      <div class="row">
+		        <div class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+		          <center><h1>Registration Page</h1><center>
+		          <div class="d-flex justify-content-center justify-content-lg-12">
+		            <a href="about.html" class="btn-get-started scrollto">Get Started</a>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+
+		  </section>
+
+			<section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+          	<div id="erorr"></div>
+            <form name="myForm" class="php-email-form" onsubmit="validate(); return false">
+            	<!-- action="/action_page.php" method="post" -->
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="u_name" class="form-control" id="name" autocomplete="username">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="email">Your Email</label>
+                  <input type="email" class="form-control" name="u_email" id="email" autocomplete="email">
+                </div>
+              </div>
+              <div class="form-group">
+
+                <!--Getting address -->
+								<label for="address" style="font-size: 20px; ">Address</label><br>
+								<textarea id="address" name="u_add" class="form-control" rows="3" cols="50" autocomplete="address-line1", "address-line2", "address-line3"></textarea><br><br>
+								
+								<!--Getting state -->
+								<label for="country" style="font-size: 20px;">Country</label><br>
+
+								<!--Selecting options amongst states -->
+								<select id="country" class="form-control" >
+									<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+									<option value="Andhra Pradesh">Andhra Pradesh</option>
+									<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+									<option value="Assam">Assam</option>
+									<option value="Bihar">Bihar</option>
+									<option value="Chandigarh">Chandigarh</option>
+									<option value="Chattisgarh">Chattisgarh</option>
+									<option value="Daman">Daman</option>
+									<option value="Delhi">Delhi</option>
+									<option value="Goa">Goa</option>
+									<option value="Gujarat">Gujarat</option>
+									<option value="Haryana">Haryana</option>
+									<option value="Himachal Pradesh">Himachal Pradesh</option>
+									<option value="Jharkhand">Jharkhand</option>
+									<option value="Jammu & Kashmir">Jammu & Kashmir</option>
+									<option value="Karnataka">Karnataka</option>
+									<option value="Kerala">Kerala</option>
+									<option value="Ladakh">Ladakh</option>
+									<option value="Lakshadweep">Lakshadweep</option>
+									<option value="Madhya Pradesh">Madhya Pradesh</option>
+									<option value="Maharashtra">Maharashtra</option>
+									<option value="Manipur">Manipur</option>
+									<option value="Meghalaya">Meghalaya</option>
+									<option value="Mizoram">Mizoram</option>
+									<option value="Nagaland">Nagaland</option>
+									<option value="Odisha">Odisha</option>
+									<option value="Puducherry">Puducherry</option>
+									<option value="Punjab">Punjab</option>
+									<option value="Rajasthan">Rajasthan</option>
+									<option value="Sikkim">Sikkim</option>
+									<option value="Tamil Nadu">Tamil Nadu</option>
+									<option value="Telangana">Telangana</option>
+									<option value="Tripura">Tripura</option>
+									<option value="Uttarakhand">Uttarakhand</option>
+									<option value="Uttar Pradesh">Uttar Pradesh</option>
+									<option value="West Bengal">West Bengal</option>
+								</select><br><br>
+								
+								<!--Getting country code -->
+								<label for="country_code" style="font-size: 20px;" >Country code</label><br>
+
+								<!--Defining pattern for putting country code -->
+					  		<input type="text" id="country_code" name="u_cc" class="form-control" pattern="[A-Za-z]{3}" title="Three letter country code" autocomplete="country"><br><br>
+					  		
+					  		<!--Getting phone number -->
+					  		<label for="phonenumber" style="font-size: 20px; " >Mobile number</label><br>
+								<input type="tel" id="phonenumber" name="u_phno" class="form-control" autocomplete="tel" placeholder="1234567890" pattern="[0-9]{10}"><br><br>
+								
+								
+								<!--Setting a profile picture -->
+								<p style="font-size: 20px;">Profile Picture</p>
+								<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/User-avatar.svg/2048px-User-avatar.svg.png" style="height:150px; border-radius: 50%; border: 10px solid #FEDE00; "><br><br>
+								
+								<!--Getting date of birth -->
+								<label for="birthday" style="font-size: 20px;">Date of Birth</label><br>
+					  		<input type="date" id="birthday" class="form-control" name="u_bd"><br><br>
+					  		
+					  		<!--Getting skills of person -->
+					  		<label for="skils" style="font-size: 20px;">Skills</label><br>
+					  		<textarea id="skils" name="u_skill" class="form-control" rows="3" cols="50" placeholder="Describe in short..."></textarea><br><br>
+					  		
+					  		<!--Getting school -->
+					  		<label for="school" style="font-size: 20px;">School</label><br>
+					  		<input list="schools" name="u_school" id="school" class="form-control">
+
+					  		<!--Getting user input as options available-->
+					  		<datalist id="schools">
+					  			<option value="School of Business">School of Business</option>
+									<option value="School of Law">School of Law</option>
+									<option value="School of Medicine">School of Medicine</option>
+									<option value="School of Engineering">School of Engineering</option>
+									<option value="School of Eletronics">School of Electronics</option>
+								</datalist><br><br>
+								
+								<!--Getting interests of person -->
+								<label for="interests" style="font-size: 20px;">Interests</label><br>
+					  		<textarea id="interests" name="u_int" class="form-control" rows="3" cols="50" placeholder="Describe in short..." ></textarea><br><br>
+					  		
+					  		<!--Getting information of projects -->
+					  		<label for="myFile" style="font-size: 20px;">Projects</label><br>
+					  		<i>Please share information about the projects via word file or pdf document</i> <br>
+					  		<input type="file" id="myFile" class="form-control" name="filename"><br><br>
+					  		
+					  		<!--Getting information of papers -->
+					  		<label for="myFile" style="font-size: 20px; ">Paper</label><br>
+					  		<i>If you have any papers published please share with us</i><br>
+					  		<i>Please share information or direct paper via the word file or pdf document</i> <br>
+					  		<input type="file" id="myFile" class="form-control" name="filename"><br><br>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button id="btn1" type="submit">Send Message</button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+	</body>
+</html>
