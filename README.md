@@ -17,9 +17,9 @@ know everything about Git.
 </p>
 In week 2, we will use HTML to create the webpage. CSS to style it. 
 Bootstrap to create a responsive design for the web page. (Source: 
-https://css-tricks.com/, 
-https://developer.mozilla.org/en-US/docs/Web/CSS, 
-https://www.w3schools.com/bootstrap5/index.php)
+<a href="https://css-tricks.com/">Css tricks</a>, 
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS">Mozilla Developer</a>, 
+<a href="https://www.w3schools.com/bootstrap5/index.php">W3Schools</a>)
 
 <h2>Week 3</h3>
 <p float="left">
@@ -27,8 +27,8 @@ https://www.w3schools.com/bootstrap5/index.php)
 </p>
 In week 3, we will use JavaScript to validate form on client-side. Jquery 
 to develop applcations based on ajax. 
-(Source: https://www.w3schools.com/jquery/default.asp, 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
+(Source: <a href="https://www.w3schools.com/jquery/default.asp">W3Schools</a>, 
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Mozilla Developer</a>) 
 
 <h2>Week 4</h2>
 <p float="left">
@@ -37,5 +37,5 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 In week 4, we will use PHP to validate form on server-side. With PHP and 
 MySQL we will design a database. This will allow us to insert, update, 
 delete and search for values in the database. (Sources: 
-https://dev.mysql.com/doc/refman/8.0/en/tutorial.html, 
-https://www.w3schools.com/php/)
+<a href="https://dev.mysql.com/doc/refman/8.0/en/tutorial.html">MySQL website</a>, 
+<a href="https://www.w3schools.com/php/">W3Schools</a>)
