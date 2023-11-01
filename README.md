@@ -16,7 +16,7 @@ know everything about Git.
 <img src="week2\week2.png" alt="HTML"></img>
 </p>
 In week 2, we will use HTML to create the webpage. CSS to style it. 
-Bootstrap to create a responsive design for the web page. (Source: 
+Bootstrap to create a responsive design for the web page. (Sources: 
 <a href="https://css-tricks.com/">Css tricks</a>, 
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">Mozilla Developer</a>, 
 <a href="https://www.w3schools.com/bootstrap5/index.php">W3Schools</a>)
@@ -27,7 +27,7 @@ Bootstrap to create a responsive design for the web page. (Source:
 </p>
 In week 3, we will use JavaScript to validate form on client-side. Jquery 
 to develop applcations based on ajax. 
-(Source: <a href="https://www.w3schools.com/jquery/default.asp">W3Schools</a>, 
+(Sources: <a href="https://www.w3schools.com/jquery/default.asp">W3Schools</a>, 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Mozilla Developer</a>) 
 
 <h2>Week 4</h2>
