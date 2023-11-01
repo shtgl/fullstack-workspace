@@ -9,3 +9,10 @@ The workspace will use front-end and back-end tools to develop web apps.
 <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="B5" width="130" height="100" style="padding-left: 20px;"></img>
 </p>
 In week 2, we will use HTML to create the webpage. CSS to style it. Bootstrap to create a responsive design for the web page. (Source: https://css-tricks.com/, https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+<h2>Week 3</h3>
+<p float="left">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt="B5" width="100" height="100" ></img>
+<img src="jquery.png" alt="B5" width="260" height="100" style="padding-left: 20px;"></img>
+</p>
+In week 3, we will use javascript to validate form on client-side. Jquery to develop applcations based on ajax.
