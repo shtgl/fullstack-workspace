@@ -45,7 +45,7 @@ MySQL Module in Xampp Control Panel. It will start the services needed
 to run a server on local host.
 <br><br>
 Place the php files in C:/xampp/htdocs folder (Windows) to run php files.
-To access database type the URL: http://localhost/phpmyadmin/<br>
+<br>To access database type the URL: http://localhost/phpmyadmin/<br>
 To access files type the URL: localhost
 <br>
 (Sources: 
