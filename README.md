@@ -4,7 +4,7 @@ The workspace will use front-end and back-end tools to develop web apps.
 
 <h2>Week 2</h2>
 <p float="left">
-<img src=""C:\Users\Shashwat\Mygit\fullstack_workspace\week2\week2.png"" alt="HTML"></img>
+<img src="week2\week2.png" alt="HTML"></img>
 
 </p>
 In week 2, we will use HTML to create the webpage. CSS to style it. Bootstrap to create a responsive design for the web page. (Source: https://css-tricks.com/, https://developer.mozilla.org/en-US/docs/Web/CSS, https://www.w3schools.com/bootstrap5/index.php)
