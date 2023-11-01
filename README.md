@@ -2,8 +2,6 @@
 
 The workspace will use front-end and back-end tools to develop web apps.
 
-img { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
-
 <h2>Week 2</h2>
 <p float="left">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/180px-HTML5_logo_and_wordmark.svg.png" alt="HTML" width="110" height="100"></img>
