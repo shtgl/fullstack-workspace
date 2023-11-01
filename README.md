@@ -13,4 +13,9 @@ In week 2, we will use HTML to create the webpage. CSS to style it. Bootstrap to
 <p float="left">
 <img src="week3\img\week3.png" alt="JavaScript"></img> 
 </p>
-In week 3, we will use javascript to validate form on client-side. Jquery to develop applcations based on ajax. (Source: https://www.w3schools.com/jquery/default.asp, https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
+In week 3, we will use JavaScript to validate form on client-side. Jquery to develop applcations based on ajax. (Source: https://www.w3schools.com/jquery/default.asp, https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
+
+<h2>Week 4</h2>
+In week 4, we will use PHP to validate form on server-side. With PHP and 
+MySQL we will design a database. This will allow us to insert, update, 
+delete and search for values in the database.
