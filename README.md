@@ -7,5 +7,5 @@ In week 2, we will use HTML to create the webpage. CSS to style it. Bootstrap to
 
 
 Source: 
-<p style="text-decoration: none">https://css-tricks.com/</p>
+<p style="text-decoration: none;">https://css-tricks.com/</p>
 <p>https://developer.mozilla.org/en-US/docs/Web/CSS</p>
