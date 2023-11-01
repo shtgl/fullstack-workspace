@@ -36,6 +36,12 @@ to develop applcations based on ajax.
 </p>
 In week 4, we will use PHP to validate form on server-side. With PHP and 
 MySQL we will design a database. This will allow us to insert, update, 
-delete and search for values in the database. (Sources: 
+delete and search for values in the database. 
+<br>
+To run php and mysql server, we need a locally hosted server. We will use
+<a href="https://www.apachefriends.org/download.html">Xampp server</a>
+to create our database.
+
+(Sources: 
 <a href="https://dev.mysql.com/doc/refman/8.0/en/tutorial.html">MySQL website</a>, 
 <a href="https://www.w3schools.com/php/">W3Schools</a>)
