@@ -2,7 +2,7 @@
 
 The workspace will use front-end and back-end tools to develop web apps.
 
-# lightgallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+#img { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
 
 <h2>Week 2</h2>
 <p float="left">
