@@ -8,7 +8,7 @@ The workspace will use front-end and back-end tools to develop web apps.
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/180px-CSS3_logo_and_wordmark.svg.png" alt="CSS" width="80" height="100" style="padding-left: 20px;"></img>
 <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="B5" width="120" height="100" style="padding-left: 20px;"></img>
 </p>
-In week 2, we will use HTML to create the webpage. CSS to style it. Bootstrap to create a responsive design for the web page. (Source: https://css-tricks.com/, https://developer.mozilla.org/en-US/docs/Web/CSS)
+In week 2, we will use HTML to create the webpage. CSS to style it. Bootstrap to create a responsive design for the web page. (Source: https://css-tricks.com/, https://developer.mozilla.org/en-US/docs/Web/CSS, https://www.w3schools.com/bootstrap5/index.php)
 
 <h2>Week 3</h3>
 <p float="left">
