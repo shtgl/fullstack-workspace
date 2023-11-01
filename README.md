@@ -2,6 +2,12 @@
 
 The workspace will use front-end and back-end tools to develop web apps.
 
+<h2>Week 1</h2>
+In week 1, we will use Git and Github to keep track of changes in the 
+process of full stack development. I am attaching a book which is 
+available on <a href="https://git-scm.com/>Git website </a>, to get to 
+know everything about Git.
+
 <h2>Week 2</h2>
 <p float="left">
 <img src="week2\week2.png" alt="HTML"></img>
