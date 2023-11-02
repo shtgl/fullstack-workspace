@@ -2,7 +2,7 @@
 
 The workspace will use front-end and back-end tools to develop web apps.
 
-<h2>Week 1</h2>
+<h2><a href="https://github.com/shtgl/fullstack-workspace/tree/main/week1">Week 1</a></h2>
 <p float="left">
 <img src="week1\week1.png" alt="git"></img>
 </p>
