@@ -37,13 +37,13 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Ouput
 
 <div align="center">
-  <img src="week6/public/week60.png">
+  <img src="public/week60.png">
 </div>
 
 <div align="center">
-  <img src="week6/public/week61.png">
+  <img src="public/week61.png">
 </div>
 
 <div align="center">
-  <img src="week6/public/week62.png">
+  <img src="public/week62.png">
 </div>
