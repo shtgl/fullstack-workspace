@@ -55,11 +55,11 @@ In week 5, we will use React Js to create a webpage for realtime calculations.
 
 To run react server we will use some commands to initialize a react application.
 
-'''
+```
 npx create-react-app week5
 cd week5
 npm start 
-'''
+```
 
 App connects to localhost at URL: http://localhost:3000
 [React learn]https://react.dev/learn)
