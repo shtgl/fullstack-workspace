@@ -4,6 +4,9 @@ The workspace will use front-end and back-end tools to develop web apps.
 
 # Week 1
 
+<div align="center">
+  <img src="week1/week1.png">
+</div>
 In week 1, we will use Git and Github to keep track of changes in the 
 process of full stack development. I am attaching a book which is 
 available on <a href="https://git-scm.com/">Git website </a>, to get to 
@@ -11,6 +14,9 @@ know everything about Git.
 
 # Week 2
 
+<div align="center">
+  <img src="week2/week2.png">
+</div>
 In week 2, we will use HTML to create the webpage. CSS to style it. 
 Bootstrap to create a responsive design for the web page. (Sources: 
 [Css tricks](https://css-tricks.com), 
@@ -19,6 +25,9 @@ Bootstrap to create a responsive design for the web page. (Sources:
 
 # Week 3
 
+<div align="center">
+  <img src="week3/week3.png">
+</div>
 In week 3, we will use JavaScript to validate form on client-side. Jquery 
 to develop applcations based on ajax. 
 [W3Schools](https://www.w3schools.com/jquery/default.asp), 
@@ -26,6 +35,9 @@ to develop applcations based on ajax.
 
 # Week 4
 
+<div align="center">
+  <img src="week4/week4.png">
+</div>
 In week 4, we will use PHP to validate form on server-side. With PHP and 
 MySQL we will design a database. This will allow us to insert, update, 
 delete and search for values in the database. 
@@ -50,6 +62,9 @@ To access files type the URL: localhost
 
 # Week 5
 
+<div align="center">
+  <img src="week5/week5.png">
+</div>
 In week 5, we will use React Js to create a webpage for realtime calculations.
 
 
