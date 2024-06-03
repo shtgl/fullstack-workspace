@@ -38,14 +38,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 <div align="center">
   <img src="public/week60.png">
-</div>
-
-
+</div><br>
 <div align="center">
   <img src="public/week61.png">
-</div>
-
-
+</div><br>
 <div align="center">
   <img src="public/week62.png">
 </div>
