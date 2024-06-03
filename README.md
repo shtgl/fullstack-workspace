@@ -26,7 +26,7 @@ Bootstrap to create a responsive design for the web page. (Sources:
 # Week 3
 
 <div align="center">
-  <img src="week3/week3.png">
+  <img src="week3/img/week3.png">
 </div>
 In week 3, we will use JavaScript to validate form on client-side. Jquery 
 to develop applcations based on ajax. 
