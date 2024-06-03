@@ -63,15 +63,9 @@ npx create-react-app week5 <br>
 cd week5 <br>
 npm start <br>
 
-<a href="https://create-react-app.dev/docs/getting-started/">Xampp server</a>
-to create our database. After installing it, "start" the Apache Module and 
-MySQL Module in Xampp Control Panel. It will start the services needed 
-to run a server on local host.
-<br><br>
-Place the php files in C:/xampp/htdocs folder (Windows) to run php files.
-<br>To access database type the URL: http://localhost/phpmyadmin/<br>
-To access files type the URL: localhost
+<a href="https://create-react-app.dev/docs/getting-started/">React Js</a>
+to initialize a react application.
+<br>App connects to localhost at URL: http://localhost:3000<br>
 <br>
 (Sources: 
-<a href="https://dev.mysql.com/doc/refman/8.0/en/tutorial.html">MySQL website</a>, 
-<a href="https://www.w3schools.com/php/">W3Schools</a>)
+<a href="https://react.dev/learn">React learn</a>)
