@@ -32,7 +32,7 @@ to develop applcations based on ajax.
 
 <h2>Week 4</h2>
 <p float="left">
-<img src="week5\week5.png" alt="phpform"></img> 
+<img src="week4\week4.png" alt="phpform"></img> 
 </p>
 In week 4, we will use PHP to validate form on server-side. With PHP and 
 MySQL we will design a database. This will allow us to insert, update, 
