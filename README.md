@@ -58,14 +58,10 @@ To access files type the URL: localhost
 </p>
 In week 5, we will use React Js to create a webpage for realtime calculations.
 <br><br>
-To run react server we will use <br>
+To run react server we will use some commands to initialize a react application. <br>
 npx create-react-app week5 <br>
 cd week5 <br>
 npm start <br>
-
-<a href="https://create-react-app.dev/docs/getting-started/">React Js</a>
-to initialize a react application.
 <br>App connects to localhost at URL: http://localhost:3000<br>
-<br>
 (Sources: 
 <a href="https://react.dev/learn">React learn</a>)
