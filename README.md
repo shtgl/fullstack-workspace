@@ -59,16 +59,10 @@ To access files type the URL: localhost
 In week 5, we will use React Js to create a webpage for realtime calculations.
 <br><br>
 To run react server we will use <br>
-```
-npx create-react-app week5
-cd week5 
-npm start
-```
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
+npx create-react-app week5 <br>
+cd week5 <br>
+npm start <br>
+
 <a href="https://create-react-app.dev/docs/getting-started/">Xampp server</a>
 to create our database. After installing it, "start" the Apache Module and 
 MySQL Module in Xampp Control Panel. It will start the services needed 
