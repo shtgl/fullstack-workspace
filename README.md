@@ -64,7 +64,11 @@ npx create-react-app week5
 cd week5 
 npm start
 ```
-
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
 <a href="https://create-react-app.dev/docs/getting-started/">Xampp server</a>
 to create our database. After installing it, "start" the Apache Module and 
 MySQL Module in Xampp Control Panel. It will start the services needed 
