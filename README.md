@@ -32,7 +32,7 @@ to develop applcations based on ajax.
 
 <h2>Week 4</h2>
 <p float="left">
-<img src="week4\week4.png" alt="phpform"></img> 
+<img src="week5\week5.png" alt="phpform"></img> 
 </p>
 In week 4, we will use PHP to validate form on server-side. With PHP and 
 MySQL we will design a database. This will allow us to insert, update, 
@@ -40,6 +40,32 @@ delete and search for values in the database.
 <br><br>
 To run php and mysql server, we need a locally hosted server. We will use
 <a href="https://www.apachefriends.org/download.html">Xampp server</a>
+to create our database. After installing it, "start" the Apache Module and 
+MySQL Module in Xampp Control Panel. It will start the services needed 
+to run a server on local host.
+<br><br>
+Place the php files in C:/xampp/htdocs folder (Windows) to run php files.
+<br>To access database type the URL: http://localhost/phpmyadmin/<br>
+To access files type the URL: localhost
+<br>
+(Sources: 
+<a href="https://dev.mysql.com/doc/refman/8.0/en/tutorial.html">MySQL website</a>, 
+<a href="https://www.w3schools.com/php/">W3Schools</a>)
+
+<h2>Week 5</h2>
+<p float="left">
+<img src="week5\week5.png" alt="phpform"></img> 
+</p>
+In week 5, we will use React Js to create a webpage for realtime calculations.
+<br><br>
+To run react server we will use 
+```
+npx create-react-app week5
+cd week5 
+npm start
+```
+
+<a href="https://create-react-app.dev/docs/getting-started/">Xampp server</a>
 to create our database. After installing it, "start" the Apache Module and 
 MySQL Module in Xampp Control Panel. It will start the services needed 
 to run a server on local host.
