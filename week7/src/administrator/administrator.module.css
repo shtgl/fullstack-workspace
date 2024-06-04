@@ -1,0 +1,274 @@
+*{
+	margin:0;
+	padding: 0;
+}
+h2{
+	color: black;
+}
+body{
+	background-color: #f1f3f4;
+	font-family: sans-serif;
+}
+
+.top-nav-bar{
+	height: 57px;
+	top: 0;
+	position: sticky;
+	background: #fff;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #9c27b0;
+	z-index: 2;
+}
+
+.logo{
+	height: 40px;
+	margin: 5px 10px;
+}
+
+.form-control{
+	margin-top: 9px;
+	margin-left: 30px;
+	border:1px solid #9c27b0 !important;
+	border-top-left-radius: 20px !important;
+	border-bottom-left-radius:20px !important;
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important; 
+	box-shadow: none;
+}
+
+.input-group-text{
+
+	background: #9c27b0 !important;
+	border:1px solid #9c27b0 !important;
+	margin: 8.5px 10px 3px 0 !important; 
+	border-top-left-radius: 0px !important;
+	border-bottom-left-radius:0px !important;
+	border-top-right-radius: 20px!important;
+	border-bottom-right-radius: 20px !important; 
+	cursor: pointer;
+}
+
+
+.fa-search{
+	color: #fff;
+}
+
+.menu-bar{
+	width: 40%;
+	height: 57px;
+	float: right;
+
+}
+
+
+.menu-bar ul{
+	display: inline-flex;
+	float: right;
+}
+
+.menu-bar ul li{
+	border-left: 1px solid #fff;
+	list-style-type:none;
+	padding: 15px 35px;
+	text-align: center;
+	background-color: #9c27b0;
+	cursor: pointer;
+
+
+}
+
+.menu-bar ul li a{
+	font-size:16px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+
+.fa-home,.fa-sign-out,.fa-address-book{
+	margin-right:5px;
+}
+
+@media only screen and (max-width: 980px){
+	.top-nav-bar{
+		height: 118px;
+		border-bottom: 0;
+
+	}
+
+	.menu-bar{
+		width: 100%;
+	}
+
+
+	.menu-bar ul{
+		margin:10px 0; 
+		width: 100%;
+	}
+
+	.menu-bar ul li{ 
+		height: 57px;
+		width: 100%;
+	}
+}
+
+/*----------------side-menu----------------------*/
+.side-menu{
+	height: 79%;
+	width: 15%;
+	font-size: 14px;
+	float: left;
+	z-index: 2;
+	background-color: #ddd;
+}
+
+.side-menu ul{
+	margin-left: 10px;
+}
+
+
+.side-menu ul li{
+	list-style-type:none;
+	font-weight: bold;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.side-menu ul li:hover{
+	color: #9c27b0;
+}
+
+
+.side-menu ul li ul{
+	display: none;
+	z-index: 10;
+	top: 77px;	
+}
+
+.side-menu ul li:hover ul{
+	display: block;
+	height: 400px;
+	margin-left: 14%;
+	padding: 0 100px 10px 10px;
+	position:fixed;
+	background: #ececec;
+	box-shadow: 1px 1px 4px 1px rgb(0,0,0.5)
+}
+
+.fa-angle-right{
+	margin-top: 4px;
+	margin-right: 8px;
+	float: right;
+}
+
+
+@media only screen and (max-width: 980px){
+	.side-menu{
+		width: 34%;
+		z-index: 20;
+		top:133px;
+		position:fixed;
+		font-size:10px;
+		display: none;
+	}
+
+	.side-menu ul li ul{
+		top:133px;
+	}
+
+	.side-menu ul li ul:hover ul{
+		margin-left: 33%;
+	}
+}
+
+#menu-btn,#close-btn{
+	font-size: 30px;
+	margin:10px;
+	color: #9c27b0;
+	display: none;
+}
+#menu-btn{
+	display: block;
+}
+
+
+/*-------------Forms-------------------*/
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+	background-color: #4CAF50;
+	color: white;
+}
