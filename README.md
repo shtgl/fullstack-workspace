@@ -77,6 +77,6 @@ npm start
 ```
 
 App connects to localhost at URL: http://localhost:3000
-[React learn]https://react.dev/learn)
+[React learn](https://react.dev/learn)
 
 
