@@ -17,9 +17,7 @@ know everything about Git.
 <div align="center">
   <img src="week2/week2.png">
 </div>
-In week 2, we will use HTML to create the webpage. CSS to style it. 
-Bootstrap to create a responsive design for the web page. (Sources: 
-[Css tricks](https://css-tricks.com), 
+In week 2, we will use HTML to create the webpage. CSS to style it. Bootstrap to create a responsive design for the web page. (Sources: [Css tricks](https://css-tricks.com), 
 [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS), 
 [W3Schools](https://www.w3schools.com/bootstrap5/index.php)
 
