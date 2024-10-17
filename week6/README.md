@@ -2,11 +2,11 @@
 
 ## Ouput
 <div align="center">
-  <img src="public/week60.png">
+  <img src="week60.png">
 </div><br><br>
 <div align="center">
-  <img src="public/week61.png">
+  <img src="week61.png">
 </div><br><br>
 <div align="center">
-  <img src="public/week62.png">
+  <img src="week62.png">
 </div>
