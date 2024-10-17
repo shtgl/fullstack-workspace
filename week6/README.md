@@ -1,4 +1,4 @@
-Currently the project is shifted to BlogPage repository. Please refer to this [link][https://github.com/shtgl/BlogPage]. It will redirect to the repository respectively.
+Currently the project is shifted to BlogPage repository. Please refer to this [link](https://github.com/shtgl/BlogPage). It will redirect to the repository respectively.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
